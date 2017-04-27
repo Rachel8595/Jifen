@@ -39,6 +39,8 @@ public class LoginClass
          }  
          dr = new RemoteWebDriver(urlInstance,test);  
          dr.get(webSite);  
+	     
+	     System.out.println("keke")
      }  
 	   
 	/*@Test  
