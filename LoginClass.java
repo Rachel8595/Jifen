@@ -26,7 +26,7 @@ public class LoginClass
          if(browser.equals("ie")) test = DesiredCapabilities.internetExplorer();  
          else if(browser.equals("ff")) test = DesiredCapabilities.firefox();  
          else if(browser.equals("chrome")) test = DesiredCapabilities.chrome();  
-         else System.out.println("browser²ÎÊıÓĞÎó£¬Ö»ÄÜÎªie¡¢ ff¡¢chrome");  
+         else System.out.println("browserå‚æ•°æœ‰è¯¯ï¼Œåªèƒ½ä¸ºieã€ ffã€chrome");  
            
          String url = nodeUrl + "/wd/hub";  
          URL urlInstance = null;  
@@ -35,7 +35,7 @@ public class LoginClass
          } catch (MalformedURLException e) {  
              // TODO Auto-generated catch block  
              e.printStackTrace();  
-             System.out.println("ÊµÀı»¯url³ö´í£¬¼ì²éÒ»ÏÂurl¸ñÊ½ÊÇ·ñÕıÈ·£¬¸ñÊ½Îª£ºhttp://192.168.40.67:5555");  
+             System.out.println("å®ä¾‹åŒ–urlå‡ºé”™ï¼Œæ£€æŸ¥ä¸€ä¸‹urlæ ¼å¼æ˜¯å¦æ­£ç¡®ï¼Œæ ¼å¼ä¸ºï¼šhttp://192.168.40.67:5555");  
          }  
          dr = new RemoteWebDriver(urlInstance,test);  
          dr.get(webSite);  
@@ -50,3 +50,5 @@ public class LoginClass
 	}*/
 	   
 }
+
+/*this is a change*/
